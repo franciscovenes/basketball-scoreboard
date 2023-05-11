@@ -39,6 +39,7 @@ h3 {
     padding: 10px 0;
     font: 3em 'Cursed Timer ULiL', sans-serif;
     color: #059669;
+    border: solid 1px #080001;
 }
 
 .counter-btn {
