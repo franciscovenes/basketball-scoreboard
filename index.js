@@ -9,10 +9,10 @@ function addPointsHome(points) {
     homeEl.textContent = homeCount
     if ( homeCount > guestCount ) {
         homeEl.style.border = "solid 1px #059669"
-        guestEl.style.border = "none"
+        guestEl.style.border = "solid 1px #080001"
     } else if ( guestCount === homeCount ) {
-        homeEl.style.border = "none"
-        guestEl.style.border = "none"
+        homeEl.style.border = "solid 1px #080001"
+        guestEl.style.border = "solid 1px #080001"
     } 
 }
 
@@ -20,11 +20,11 @@ function addPointsGuest(points) {
     guestCount += points
     guestEl.textContent = guestCount
     if ( guestCount > homeCount ) {
-        homeEl.style.border = "none"
+        homeEl.style.border = "solid 1px #080001"
         guestEl.style.border = "solid 1px #059669"
     } else if ( guestCount === homeCount ) {
-        homeEl.style.border = "none"
-        guestEl.style.border = "none"
+        homeEl.style.border = "solid 1px #080001"
+        guestEl.style.border = "solid 1px #080001"
     } 
 }
 
@@ -33,6 +33,6 @@ function startNewGame() {
     guestCount = 0;
     homeEl.textContent = homeCount
     guestEl.textContent = guestCount
-    homeEl.style.border = "none"
-    guestEl.style.border = "none"    
+    homeEl.style.border = "solid 1px #080001"
+    guestEl.style.border = "solid 1px #080001"    
 }
