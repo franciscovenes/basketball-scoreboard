@@ -1,30 +1,37 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="counter">
-                <h3>HOME</h3>
-                <div id="home-el" class="count-el">0</div>
-                <div>
-                    <button class="counter-btn" onclick="addPointsHome(1)">+1</button>
-                    <button class="counter-btn" onclick="addPointsHome(2)">+2</button>
-                    <button class="counter-btn" onclick="addPointsHome(3)">+3</button>  
-                </div>
-            </div>
-            <div class="counter">
-                <h3>GUEST</h3>
-                <div id="guest-el" class="count-el">0</div>
-                <div>
-                    <button class="counter-btn" onclick="addPointsGuest(1)">+1</button>
-                    <button class="counter-btn" onclick="addPointsGuest(2)">+2</button>
-                    <button class="counter-btn" onclick="addPointsGuest(3)">+3</button>   
-                </div>
-            </div>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="counter">
+        <h3>HOME</h3>
+        <div id="home-el" class="count-el">0</div>
+        <div>
+          <button class="counter-btn" onclick="addPointsHome(1)">+1</button>
+          <button class="counter-btn" onclick="addPointsHome(2)">+2</button>
+          <button class="counter-btn" onclick="addPointsHome(3)">+3</button>
         </div>
-        <button id="new-game-btn" onclick="startNewGame()">New Game</button>
-        <script src="index.js"></script>
-    </body>
+      </div>
+      <div class="counter">
+        <h3>AWAY</h3>
+        <div id="guest-el" class="count-el">0</div>
+        <div>
+          <button class="counter-btn" onclick="addPointsGuest(1)">+1</button>
+          <button class="counter-btn" onclick="addPointsGuest(2)">+2</button>
+          <button class="counter-btn" onclick="addPointsGuest(3)">+3</button>
+        </div>
+      </div>
+    </div>
+    <button id="new-game-btn" onclick="startNewGame()">New Game</button>
+    <script src="index.js"></script>
+  </body>
 </html>
