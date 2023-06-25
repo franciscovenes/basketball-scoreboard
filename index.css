@@ -1,69 +1,67 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    background: #000000;
-    text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  background: #000000;
+  text-align: center;
 }
 
 h3 {
-    margin: 0;
+  margin: 0;
 }
 
 .container {
-    background: #1B244A;
-    box-sizing: border-box;
-    max-width: 400px;
-    min-width: 300px;
-    margin: 30px auto;
-    display: flex;
-    justify-content: space-around;
-    color: #EEEEEE;
-    padding: 15px 5px;
-    box-shadow: 0 0 8px #EEEEEE;
-    border-radius: 10px;
+  background: #0047AB;
+  box-sizing: border-box;
+  max-width: 400px;
+  min-width: 300px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+  color: #eeeeee;
+  padding: 15px 5px;
+  box-shadow: 0 0 8px #eeeeee;
+  border-radius: 10px;
 }
 
 .counter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .count-el {
-    box-sizing: border-box;
-    width: 100%;
-    background: #080001;
-    text-align: center;
-    padding: 10px 0;
-    font: 3em 'Cursed Timer ULiL', sans-serif;
-    color: #059669;
-    border: solid 1px #080001;
+  box-sizing: border-box;
+  width: 100%;
+  background: #080001;
+  text-align: center;
+  padding: 10px 0;
+  font: 3em "Cursed Timer ULiL", sans-serif;
+  color: #059669;
+  border: solid 1px #080001;
 }
 
 .counter-btn {
-    background: transparent;
-    color: #9AABD8;
-    border: solid 1px;
-    border-radius: 5px;
-    padding: 5px;
-    font-family: 'Cursed Timer ULiL', sans-serif;
+  background: transparent;
+  color: #9aabd8;
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: "Cursed Timer ULiL", sans-serif;
 }
 
 #new-game-btn {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    background: #059669;
-    border: none;
-    color: #EEEEEE;
-    padding: 8px 16px;
-    text-shadow: 0 0 2px black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  background: #059669;
+  border: none;
+  color: #eeeeee;
+  padding: 8px 16px;
+  text-shadow: 0 0 2px black;
 }
 
 #new-game-btn:hover {
-    color: #059669;
-    background: #EEEEEE;
-    text-shadow: 0 0 0;  
+  color: #059669;
+  background: #eeeeee;
+  text-shadow: 0 0 0;
 }
-
